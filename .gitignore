@@ -1,0 +1,14 @@
+copy-steve.sh
+*.dylib
+*.class
+*.iml
+*.jar
+*.swp
+*~
+.DS_Store
+.idea/
+.metadata
+bin
+classes/
+target/
+out/

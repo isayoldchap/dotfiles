@@ -1,0 +1,11 @@
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[user]
+	email = stevenjohnrichardson@gmail.com
+	name = srichardson
+[push]
+	default = matching
