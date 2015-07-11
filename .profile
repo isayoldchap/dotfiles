@@ -13,6 +13,16 @@ export MAVEN_OPTS="-Xmx2048m -client"
 
 #########################################################################################
 
+installDotFiles() {
+  ln -s ~/dotfiles/.vimrc ~/.vimrc
+  ln -s ~/dotfiles/.profile ~/.profile
+  ln -s ~/dotfiles/.gitignore ~/.gitignore
+  ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+}
+
+
+#########################################################################################
+
 # ALIASES
 alias b="cd -"
 alias c="/usr/bin/clear"
